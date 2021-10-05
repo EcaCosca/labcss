@@ -7,3 +7,61 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+body {
+  margin: 0px;
+}
+/* Flex Styles */
+#flexcontainer {
+  padding: 50px;
+
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Image and Title Styles */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  color: #fff;
+  font-size: 80px;
+  text-align: center;
+  justify-content: center;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.titleclass {
+  margin-right: 30%;
+  font-weight: bolder;
+}
+
+#headerimage {
+  width: 100%;
+  height: 700px;
+}
+
+/* Content Styels  */
+
+.center-class {
+  max-width: 50%;
+  text-align: start;
+}
+hr {
+  width: 1000px;
+}
+
+#smallimage {
+  height: 60px;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
