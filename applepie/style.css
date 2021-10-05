@@ -1,8 +1,14 @@
-body {
+/*Some necessary adjustments*/
+h1, body, html, main {
+    margin: 0;
+  }
+  /*Import the font and set the default size*/
+  html {
     font-family: 'Open Sans', sans-serif;
-}
-
-#backgroundImage{
+    font-size: 18px
+  }
+  
+  #backgroundImage{
     background-image: url('images/apple-pie.jpg');
     background-attachment: fixed; 
     background-position: center; 
@@ -10,71 +16,37 @@ body {
     background-size: cover;
     background-size:100% auto;
     margin-left: -8px;
-    width: 101%;
-}
-
-#headerText {
+    width: 100.5%;
+  }
+  
+  #headerText {
     color: aliceblue;
-    font-size: 44px;
+    font-size: 64px;
     padding: 300px;
-    margin-top: -10px;
-    margin-left: -20px;;
-}
-
-.cover-page{
-    position:relative;
-    width: 90%;
-    margin: auto;
-}
-
-.apple-pie-image img{
-    height: 800px;
-}
-
-ul, li {
-    list-style:none;
-}
-
-.image1 {
-    position: relative;
-}
-
-h1, h2, h3, h4, h5 {
-    font-family: 'Open Sans', sans-serif;
-}
-
-h1 {
-    color: black;
-    text-align:center;
-    font-size: 30px;
-}
-
-h2 {
-    font-weight: lighter;
-color:black;
-}
-h3{
-    font-weight: lighter;
-    color:black;
-}
-
-hr {
-    width: 40%;
-    background-color: grey;
-}
-
-.marginText {
-    margin-left: 450px;
-}
-p {
-    font-weight: lighter;
-}
-
-.Recipe {
-    font-weight: lighter;
-    right:50%;
-}
-
-.centerMe {
+    margin-top: -150px;
+    margin-left: -20px;
     text-align: center;
-}
+  }
+  
+  .main {
+    width: 70%;
+    margin-left: 15%;
+    word-break: break-word;
+  }
+  
+  .customli::before {
+    content: "- ";
+  }
+  
+  .customli{
+    list-style-type: none;
+    font-size: 16px;
+  }
+  
+  .image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }
+  
