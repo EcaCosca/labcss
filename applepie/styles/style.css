@@ -1,0 +1,52 @@
+.main {
+  width: 100%;
+  height: 100%;
+}
+.imgdiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+}
+h2 {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+}
+.imgcss {
+  height: 800px;
+  width: 100% !important;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+.h1css {
+  position: absolute;
+}
+.cssforthreedivs {
+  margin: 5% 8% 5% 8%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+ul,
+ol,
+li,
+h2,
+p {
+  text-align: left;
+}
+#twoimgescss {
+  height: 50%;
+  width: 50%;
+  align-items: center;
+}
