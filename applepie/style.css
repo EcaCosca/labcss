@@ -1,0 +1,23 @@
+.position{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-image: url("./images/apple-pie.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+.text{
+    display: flex;
+    justify-content: center;
+
+}
+main{
+    padding: 0px 20vw;
+}
+
+
+ 
+
+
+
