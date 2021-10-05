@@ -11,6 +11,7 @@ html {
 .landing-page-img{
 height: 100vh;
 background-image: url("/Users/ghadahalghanim/Desktop/TBootcamp/T1000/homework_labs/labcss/applepie/images/apple-pie.jpg");
+background-size: cover;
 display: flex;
 justify-content: center;
 align-items: center;
