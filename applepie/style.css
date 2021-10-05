@@ -1,0 +1,52 @@
+/*Some necessary adjustments*/
+h1, body, html, main {
+    margin: 0;
+  }
+  /*Import the font and set the default size*/
+  html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px
+  }
+  
+  #backgroundImage{
+    background-image: url('images/apple-pie.jpg');
+    background-attachment: fixed; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-size:100% auto;
+    margin-left: -8px;
+    width: 100.5%;
+  }
+  
+  #headerText {
+    color: aliceblue;
+    font-size: 64px;
+    padding: 300px;
+    margin-top: -150px;
+    margin-left: -20px;
+    text-align: center;
+  }
+  
+  .main {
+    width: 70%;
+    margin-left: 15%;
+    word-break: break-word;
+  }
+  
+  .customli::before {
+    content: "- ";
+  }
+  
+  .customli{
+    list-style-type: none;
+    font-size: 16px;
+  }
+  
+  .image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }
+  
