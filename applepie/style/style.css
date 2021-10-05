@@ -1,0 +1,35 @@
+.Sec{
+color: darkgray;
+margin: 52px;}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+    width: 50%;
+}
+
+img{
+    width: 100%;
+}
+
+hr{
+    padding: inherit;
+}
+.heading{
+    margin: 50px;
+}
+
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+    font-size: 60px
+}
+#centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
