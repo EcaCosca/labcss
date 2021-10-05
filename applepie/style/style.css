@@ -1,0 +1,94 @@
+/*Some necessary adjustments*/
+h1, body, html, main {
+    margin: 0;
+  }
+  /*Import the font and set the default size*/
+  html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px
+  }
+  
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  h1{
+    position: absolute;
+    color: white;
+    font-size: 50pt;
+  }
+  h4{
+    text-align: left;
+    padding: 5px;
+    width: 50%;
+    height: 100%;
+    margin: 10px;
+  }
+  
+  
+  .hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border: 10px;
+  }
+  
+  p{
+    padding: 5px;
+    width: 50%;
+    height: 100%;
+    margin: 10px;
+  }
+  
+  ul{
+    padding: 5px;
+    width: 50%;
+    height: 100%;
+    margin: 10px;
+    text-align: left;
+    list-style-type: none;
+  }
+  
+  ul li:before {
+    content: '-';
+    position: absolute;
+    margin-left: -20px;
+  }
+  
+  ol{
+    text-align: left;
+    padding: 5px;
+    width: 50%;
+    height: 100%;
+    margin: 10px;
+  }
+  
+  hr {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 50%;               
+    background-color: gray;
+    height: 1px;
+  }
+  
+  img{
+    width: 30%;  
+  }
+  
+  .header img{
+    /* flex: 1 100%; */
+    width: 1420px;
+    height:850px
+  }
+  
+  
+  
+  
+  
+  
