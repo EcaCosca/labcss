@@ -1,0 +1,50 @@
+body{
+    border-style: inset;
+}
+.ptext{
+    position: relative;
+    text-align: center;
+    margin: 20px;
+
+}
+.text1{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+.pra1{
+    color: rgb(129, 127, 127);
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.imag1{
+    display: flex;
+    justify-content: center;
+
+}
+.pra2{
+    color: rgb(129, 127, 127);
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+h3{
+    font-size: 25px;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 200px;
+    padding-right: 200px;
+}
