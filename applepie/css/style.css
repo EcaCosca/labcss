@@ -1,0 +1,35 @@
+body{
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#head-title{
+    position: absolute;
+    top: 20%;
+    margin: auto;
+    width:100%;
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    
+}
+#head-img{
+    height: 500px;
+    width: 100%;
+}
+#content{
+    margin: 20px;
+    padding: 20px;
+    font-size: 18px;
+}
+.img{
+    display:block; height: 100%; margin-left: auto; margin-right: auto;
+}
+hr{
+    width: 70%;
+    height: 2px;
+    color:rgb(155, 153, 153);
+    background-color: rgb(155, 153, 153);;
+    border: 0;
+}
