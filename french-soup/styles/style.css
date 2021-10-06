@@ -7,3 +7,36 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+/*
+.header {
+  
+  background-image: url("");
+  background-size: cover;
+  height: calc(100vh - 64px);
+  
+}
+*/
+
+.p{
+  position: relative;
+  width: 600px;
+  margin: auto;
+  padding: 50px;
+  font-size: 20px;
+  line-height: 1.8;
+}
+
+.images{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600PX;
+  padding: relative ;
+}
+
+.content-1{
+  width: 600px;
+  margin: auto;
+  padding: relative;
+
+}
