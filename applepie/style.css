@@ -1,0 +1,67 @@
+* {
+    font-family: Arial, Verdana, monospace;
+  }
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+  }
+
+.pie{
+    align-self: center;
+    height: 500px;
+    width: 890px;
+    
+}
+.bd{
+    margin-left:10% ;
+    margin-right:10% ;
+    display:flex;
+    flex-direction: column;
+    
+   
+}
+.cinfo{
+    align-self: center;
+    height: 50px;
+    width: 329px;
+    
+}
+.rinfo{
+    align-self: center;
+    height: 57px;
+    width: 333px;
+    
+}
+.p1{
+    align-self: center;
+    color: black;
+    text-align: justify;
+    width: 649px;
+    font-size: 18px;
+    
+}
+.p2{
+    
+    color: black;
+    text-align: left;
+    padding-left: 270px;
+    font-size: 15px;
+   
+}
+
+.p3{
+    align-self: center;
+    color: black;
+    text-align: left;
+    font-size: 17px; 
+    width: 649px; 
+}
