@@ -7,15 +7,15 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
-/*
+
 .header {
   
-  background-image: url("");
+  background-image: url("../images/soup.jpg");
   background-size: cover;
   height: calc(100vh - 64px);
   
 }
-*/
+
 
 .p{
   position: relative;
@@ -34,6 +34,20 @@ html {
   padding: relative ;
 }
 
+
+
+h1{
+  margin: 0px;
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+  top: 35%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50% , -50%);
+
+  
+}
 .content-1{
   width: 600px;
   margin: auto;

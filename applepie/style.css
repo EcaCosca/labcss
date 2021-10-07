@@ -42,7 +42,11 @@
       }
 
       .content-1{
-          width: 600px;
-          margin: auto;
-          padding: relative;
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        margin: 50px auto;
+        width: 600px;
+       
+       
       }
